@@ -26,7 +26,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+python/
+author*
+logs/
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -54,6 +56,8 @@ coverage.xml
 # Translations
 *.mo
 *.pot
+*.jpg
+*.JGP
 
 # Django stuff:
 *.log
@@ -127,3 +131,54 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/.gitignore
+.idea/CNNFace.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/other.xml
+.idea/vcs.xml
+author_img.jpg
+author_img1.jpg
+author_img10.jpg
+author_img11.jpg
+author_img12.jpg
+author_img13.jpg
+author_img14.jpg
+author_img2.JPG
+author_img3.jpg
+author_img4.jpg
+author_img5.jpg
+author_img6.JPG
+python/demo/Include/
+python/demo/Scripts/Activate.ps1
+python/demo/Scripts/activate
+python/demo/Scripts/activate.bat
+python/demo/Scripts/deactivate.bat
+python/demo/Scripts/easy_install-3.6.exe
+python/demo/Scripts/easy_install.exe
+python/demo/Scripts/f2py.exe
+python/demo/Scripts/freeze_graph.exe
+python/demo/Scripts/markdown_py.exe
+python/demo/Scripts/pip-script.py
+python/demo/Scripts/pip.exe
+python/demo/Scripts/pip3-script.py
+python/demo/Scripts/pip3.6-script.py
+python/demo/Scripts/pip3.6.exe
+python/demo/Scripts/pip3.exe
+python/demo/Scripts/python.exe
+python/demo/Scripts/python3.dll
+python/demo/Scripts/python36.dll
+python/demo/Scripts/pythonw.exe
+python/demo/Scripts/saved_model_cli.exe
+python/demo/Scripts/sqlite3.dll
+python/demo/Scripts/tcl86t.dll
+python/demo/Scripts/tensorboard.exe
+python/demo/Scripts/tf_upgrade_v2.exe
+python/demo/Scripts/tflite_convert.exe
+python/demo/Scripts/tk86t.dll
+python/demo/Scripts/toco.exe
+python/demo/Scripts/toco_from_protos.exe
+python/demo/Scripts/vcruntime140.dll
+python/demo/Scripts/wheel.exe
+python/demo/pyvenv.cfg
